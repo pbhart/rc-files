@@ -1,7 +1,8 @@
 """"""""""""""""""""""""""""""""""""""""""""""""
 " vimrc
-"Tue Mar 27 21:16:11 CDT 2012
-
+" Tue Mar 27 21:16:11 CDT 2012
+" Phil Hart
+"
 " vimrc.min
 " Forget being compatible with good ol' vi
 set nocompatible
@@ -70,16 +71,6 @@ set laststatus=2
 " Hide the mouse pointer while typing
 set mousehide
 
-" The GUI (i.e. the 'g' in 'gvim') is fantastic, but let's not be
-" silly about it :)  The GUI is fantastic, but it's fantastic for
-" its fonts and its colours, not for its toolbar and its menus -
-" those just steal screen real estate
-" set guioptions=ac
-
-" This is the timeout used while waiting for user input on a
-" multi-keyed macro or while just sitting and waiting for another
-" key to be pressed measured in milliseconds.
-"
 " i.e. for the ",d" command, there is a "timeoutlen" wait
 "      period between the "," key and the "d" key.  If the
 "      "d" key isn't pressed before the timeout expires,
@@ -99,7 +90,7 @@ set timeoutlen=500
 set history=100
 
 " These commands open folds
-" set foldopen=block,insert,jump,mark,percent,quickfix,search,tag,undo
+set foldopen=block,insert,jump,mark,percent,quickfix,search,tag,undo
 
 " When the page starts to scroll, keep the cursor 8 lines from
 " the top and 8 lines from the bottom
@@ -121,8 +112,6 @@ set incsearch
 
 " Syntax coloring lines that are too long just slows down the world
 set synmaxcol=2048
-
-
 
 """"""""""""""""""""""""""""""""""
 " phil's stuff goes here
