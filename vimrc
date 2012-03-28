@@ -1,5 +1,7 @@
-
 """"""""""""""""""""""""""""""""""""""""""""""""
+" vimrc
+"Tue Mar 27 21:16:11 CDT 2012
+
 " vimrc.min
 " Forget being compatible with good ol' vi
 set nocompatible
