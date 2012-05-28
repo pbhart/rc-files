@@ -1,9 +1,19 @@
 """"""""""""""""""""""""""""""""""""""""""""""""
 " vimrc
 " Tue Mar 27 21:16:11 CDT 2012
+" Mon May 28 12:01:33 CDT 2012
 " Phil Hart
 "
 " vimrc.min
+" Pathogen for plugin organization
+
+call pathogen#infect()
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+syntax on
+filetype plugin indent on
+
 " Forget being compatible with good ol' vi
 set nocompatible
 
