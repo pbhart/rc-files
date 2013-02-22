@@ -2,6 +2,7 @@
 " vimrc
 " Tue Mar 27 21:16:11 CDT 2012
 " Mon May 28 12:01:33 CDT 2012
+" Fri Feb 22 13:40:35 CST 2013
 " Phil Hart
 "
 " vimrc.min

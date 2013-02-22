@@ -1,5 +1,10 @@
 
 """"""""""""""""""""""""""""""""""""""""""""""""
+" Phil Hart
+" Fri Feb 22 13:41:16 CST 2013
+
+
+
 " vimrc.min
 " Forget being compatible with good ol' vi
 set nocompatible
